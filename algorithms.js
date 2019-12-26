@@ -47,3 +47,32 @@ function longestString(arr) {
 
 const strings1 = ['short', 'really, really long!', 'medium'];
 console.log(longestString(strings1));
+
+//===========================================================================================================================================
+
+//Make a string into camelCase
+
+//This version won't pass unless I remove .toLowerCase() from line 3
+function toCamelCase(str){
+  let dashAndUnderscoreRegex = /[-_]/g;
+  let newStr = str.toLowerCase().split(dashAndUnderscoreRegex);
+  
+  for(let i = 1; i < newStr.length; i++){
+    newStr[i] = newStr[i][0].toUpperCase() + newStr[i].substring(1);
+    
+  }
+  
+  return newStr.join('');
+}
+console.log(toCamelCase('The-stealth_warrior'));
+
+// function toCamelCase(str){
+// const array = str.split(/[-_]/);
+// for(i = 1; i < array.length; i++){
+//         array[i] = array[i][0].toUpperCase() + array[i].substr(1);
+// }
+
+// return array.join('')
+  
+// }
+// console.log(toCamelCase('The_stealth_warrior'));
