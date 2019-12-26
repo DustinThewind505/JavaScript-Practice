@@ -1,3 +1,5 @@
+//Factorialize a number
+
 function factorialize(number){
     let factorial = 0 
     for(factorial =0; factorial <= number; factorial++){
@@ -9,6 +11,8 @@ function factorialize(number){
 console.log(factorialize(5));
 
 //======================================================================================================================================================================
+
+//Reverse a string
 
 const reverseString = str => str.split('').reverse().join('');
 
@@ -23,3 +27,15 @@ function theRev(str) {
 console.log(theRev('Caviar King'));
 
 console.log(reverseString('Marlin 2 Jungle'));
+
+//===============================================================================================================================================
+
+//Longest string
+
+function longestString(arr) {
+  let sortedArray = arr.sort((a,b) => b.length - a.length);
+  return sortedArray[0];
+}
+
+const strings1 = ['short', 'really, really long!', 'medium'];
+console.log(longestString(strings1));
