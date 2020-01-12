@@ -1,14 +1,16 @@
 //Factorialize a number
 
-function factorialize(number){
-    let factorial = 0 
-    for(factorial =0; factorial <= number; factorial++){
-        factorial *= number;
-    };
+function factorialize(num){
+    let factorial = 1;
+    for(let i = 1; i <= num ; i++){
+            factorial *= i
+    }
+    
     return factorial;
-};
+}
 
-console.log(factorialize(5));
+
+console.log(factorialize(4));
 
 //==============================================================================================================================================
 
