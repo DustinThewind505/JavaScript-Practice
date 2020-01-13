@@ -1,3 +1,19 @@
+//FizzBuzz
+
+function fizzBuzz(num){
+    if(num % 3 === 0 && num % 5 === 0){
+        return 'FizzBuzz'
+    } else if(num % 3 === 0){
+        return 'Fizz'
+    } else if(num % 5 ===0){
+        return 'Buzz'
+    }
+}
+
+console.log(fizzBuzz(30))
+
+//==============================================================================================================================================
+
 //Factorialize a number
 
 function factorialize(num){
@@ -10,15 +26,7 @@ function factorialize(num){
 }
 
 
-console.log(factorialize(4));
-
-//==============================================================================================================================================
-
-//Reverse a number
-
-const reverseNumber = num => parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num);
-
-reverseNumber(-12345600.00)
+console.log(factorialize(0));
 
 //======================================================================================================================================================================
 
@@ -38,6 +46,24 @@ console.log(theRev('Caviar King'));
 
 console.log(reverseString('Marlin 2 Jungle'));
 
+//==============================================================================================================================================
+
+//Palindrome
+
+function isPalindrome(str){
+
+    const specialRegex = /\W_/g;
+    let newStr = str.toLowerCase().replace(specialRegex, '').split('');
+    let revStr = newStr.reverse();
+    console.log(newStr)
+    if(newStr.join('') === newStr.reverse().join('')){
+        return true
+    } else {
+        return false
+    }
+
+}
+console.log(isPalindrome('A nut for a jar of peanut butter'))
 //===============================================================================================================================================
 
 //Longest string
@@ -78,3 +104,11 @@ console.log(toCamelCase('The-stealth_warrior'));
   
 // }
 // console.log(toCamelCase('The_stealth_warrior'));
+
+//==============================================================================================================================================
+
+//Reverse a number
+
+const reverseNumber = num => parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num);
+
+reverseNumber(-12345600.00)
