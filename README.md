@@ -1,1 +1,1 @@
-# algorithms.js
+# JavaScript Practice 🌠🍼
