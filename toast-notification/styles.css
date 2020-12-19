@@ -18,6 +18,13 @@ body {
     background-color: lightyellow;
 }
 
+.toast {
+    background-image: url("https://images.vexels.com/media/users/3/166265/isolated/preview/34755dc7208ebe0275412adca6723f22-cute-toast-emoji-by-vexels.png");
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
 #toaster {
     background-image: url("https://pngimg.com/uploads/toaster/toaster_PNG47.png");
     background-size: contain;
