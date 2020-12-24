@@ -8,6 +8,10 @@
 }
 
 body {
+    background-image: url("https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Cartoons-PNG/Thumper_Bambi_Transparent_PNG_Clip_Art_Image.png?m=1507172104");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 10%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,9 +21,39 @@ body {
 
 h1 {
     font-size: 5rem; 
- }
+}
 
- button {
-     margin: 1% 0;
-     padding: 0.2% 0.5%;
- }
+button {
+    margin: 1% 0;
+    padding: 0.2% 0.5%;
+}
+
+.pop-up-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.pop-up-container.active {
+    display: flex;
+}
+
+.pop-up {
+    background-color: white;
+    padding: 0 2% 1%;
+    border-radius: 10px;
+}
+
+.pop-up button {
+    background-color: red;
+    font-size: 2rem;
+    position: absolute;
+    right: 22%;
+}
