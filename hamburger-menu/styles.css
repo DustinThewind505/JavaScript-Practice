@@ -18,7 +18,8 @@ a {
 }
 
 body {
-    background-image: url("https://images.eatsmarter.com/sites/default/files/styles/576x432/public/xxl-hamburger-590474.jpg");
+    background-image: url("https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4135.png");
+    background-size: 40%;
     background-position: center;
     background-repeat: repeat-x;
     min-height: 100vh;

@@ -8,6 +8,10 @@
 }
 
 body {
+    background-image: url("https://www.freepngimg.com/thumb/daft_punk/36535-3-daft-punk-transparent.png");
+    background-size: 14%;
+    background-position: bottom;
+    background-repeat: repeat-x;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,6 +20,6 @@ body {
 }
 
 p {
-    margin-top: 25%;
+    margin-top: 10%;
     font-size: 4rem;
 }

@@ -4,7 +4,7 @@ const bottomPhrase = document.querySelector(".bottom-text");
 
 
 // ========== TOP AUTOWRITE TEXT ==========
-const topText = "Hi! My name is Dustin ";
+const topText = "Hi! My name is Dustin";
 
 let topIndex = 0;
 
@@ -15,7 +15,7 @@ function writeTopText() {
 
     topIndex++
 
-    if (topIndex > topText.length) {
+    if (topIndex > topText.length + 15) {
         topIndex = 0
     }
 
@@ -25,7 +25,7 @@ setInterval(writeTopText, 150)
 
 
 // ========== BOTTOM AUTOWRITE TEXT ==========
-const bottomText = "I'm a software developer ";
+const bottomText = "I'm a software developer";
 
 let bottomIndex = 0;
 
@@ -36,7 +36,7 @@ function writeBottomText() {
 
     bottomIndex++
 
-    if (bottomIndex > bottomText.length) {
+    if (bottomIndex > bottomText.length + 20) {
         bottomIndex = 0
     }
 
