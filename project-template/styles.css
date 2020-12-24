@@ -14,3 +14,7 @@ body {
     align-items: center;
     background-color: lightyellow;
 }
+
+h1 {
+    font-size: 5rem; 
+ }
