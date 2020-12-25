@@ -24,9 +24,16 @@ h1 {
     font-weight: bold;
 }
 
+p {
+    margin: 10%;
+    font-size: 2rem;
+}
+
 button {
     font-size: 2rem;
     transition: transform 0s linear;
+    border-radius: 3px;
+    border: 1px solid black;
 }
 
 button:hover {
@@ -35,4 +42,10 @@ button:hover {
 
 button:active {
     transform: translateY(0px);
+}
+
+.dark-mode {
+    color: white;
+    text-shadow: 1px 1px 8px lightsteelblue;
+    background-color: black;
 }
