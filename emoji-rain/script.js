@@ -26,7 +26,7 @@ function createRain() {
     rain.style.fontSize = "1.5rem"
     rain.style.right = Math.random() * 100 + "vw";
 
-    document.body.appendChild(rain)
+    document.body.appendChild(rain);
 }
 
 setInterval(createRain, 300)
