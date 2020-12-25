@@ -19,7 +19,24 @@ h1 {
     font-size: 5rem; 
  }
 
- button{
-     padding: 0.3% 2%;
-     border-radius: 3px;
+ button {
+    padding: 0.3% 2%;
+    border-radius: 3px;
+    border: 1px solid black;
+ }
+
+ .set-colors {
+     width: 80%;
+ }
+
+
+ .random-colors {
+     width: 80%;
+     margin: 5% 0;
+ }
+
+ .random-colors button {
+    font-size: 2rem;
+    color: lawngreen;
+    background-color: black;
  }
