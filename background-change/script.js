@@ -3,6 +3,7 @@ const yellow = document.getElementById("yellow");
 const blue = document.getElementById("blue");
 const random1 = document.getElementById("random1");
 const random2 = document.getElementById("random2");
+const theBody = document.body;
 
 const header = document.querySelector("h1");
 

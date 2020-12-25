@@ -22,6 +22,11 @@ h1 {
     font-size: 5rem; 
  }
 
+ a {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .toast {
     background-image: url("https://images.vexels.com/media/users/3/166265/isolated/preview/34755dc7208ebe0275412adca6723f22-cute-toast-emoji-by-vexels.png");
     background-size: contain;

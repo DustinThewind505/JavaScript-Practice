@@ -18,41 +18,21 @@ body {
 h1 {
     font-size: 5rem; 
  }
- 
+
  a {
     font-size: 1.2rem;
     font-weight: bold;
 }
 
- button {
-    padding: 0.3% 2%;
-    border-radius: 3px;
-    border: 1px solid black;
+button {
+    font-size: 2rem;
     transition: transform 0s linear;
- }
-
- button:hover {
-     transform: translateY(-1px);
- }
-
- button:active {
-    transform: translateY(0px);
 }
 
- button:
+button:hover {
+    transform: translateY(-1px);
+}
 
- .set-colors {
-     width: 80%;
- }
-
-
- .random-colors {
-     width: 80%;
-     margin: 5% 0;
- }
-
- .random-colors button {
-    font-size: 2rem;
-    color: lawngreen;
-    background-color: black;
- }
+button:active {
+    transform: translateY(0px);
+}

@@ -23,6 +23,11 @@ h1 {
     font-size: 5rem; 
 }
 
+a {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 button {
     margin: 1% 0;
     padding: 0.2% 0.5%;
