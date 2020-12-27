@@ -9,7 +9,7 @@
 
 body {
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/20f4f11a-96a1-48a5-928f-c4c956cc2e6e/d1jvbmq-30510d8e-33cd-41fe-b12c-5db0340aab51.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjBmNGYxMWEtOTZhMS00OGE1LTkyOGYtYzRjOTU2Y2MyZTZlXC9kMWp2Ym1xLTMwNTEwZDhlLTMzY2QtNDFmZS1iMTJjLTVkYjAzNDBhYWI1MS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.LqALR40JZZ6swWLC6gT9KVUEtpRFuhu6LMSNTpse6BE");
-    background-size: 30%;
+    background-size: 15%;
     background-position: bottom;
     background-repeat: repeat-x;
     min-height: 100vh;
@@ -30,7 +30,7 @@ h1 {
 
 button {
     width: 32%;
-    height: 150px;
+    height: 300px;
     font-size: 1.5rem;
     font-weight: bold;
     border-radius: 4px;
@@ -53,14 +53,13 @@ button:active {
 
 .sounds-container {
     width: 100%;
-    margin: 10% 0;
-    padding: 10% 0;
+    padding: 5% 0;
     display: flex;
     justify-content: space-evenly;
 }
 
 .seinfeld {
-    background-image: url("https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0008/3096/brand.gif?itok=G6IHcJ1J");
+    background-image: url("https://i.ytimg.com/vi/j4E5OD2cHIo/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -74,7 +73,7 @@ button:active {
 }
 
 .final-fantasy-victory {
-    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Final_Fantasy_8_ntsc-front.jpg/220px-Final_Fantasy_8_ntsc-front.jpg");
+    background-image: url("https://e.snmc.io/lk/lv/x/bd8a17aee3809b77cdb45082f8577883/6847806");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

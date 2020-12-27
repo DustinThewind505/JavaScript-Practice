@@ -11,6 +11,19 @@ sounds.forEach((sound) => {
     soundsContainer.appendChild(soundButton)
 
     soundButton.addEventListener("click", () => {
+        stopSongs()
+
         document.getElementById(sound).play()
     })
 })
+
+
+
+function stopSongs() {
+    sounds.forEach(sound => {
+        const song = document.getElementById(sound);
+
+        song.pause();
+        song.currentTime = 0;
+    })
+}
