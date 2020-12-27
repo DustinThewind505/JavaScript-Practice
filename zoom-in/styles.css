@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightyellow;
+}
+
+h1 {
+    font-size: 5rem; 
+ }
+
+ a {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+div {
+    width: 70%;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 5px solid black;
+}
+
+img {
+    width: 100%;
+}
