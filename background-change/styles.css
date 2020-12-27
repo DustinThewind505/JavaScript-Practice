@@ -8,6 +8,10 @@
 }
 
 body {
+    background-image: url("https://pngimg.com/uploads/rainbow/rainbow_PNG5570.png");
+    background-position: bottom;
+    background-size: 80%;
+    background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
