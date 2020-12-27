@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: 1px solid black;
     text-align: center;
     transition: transform 0.3s ease-in-out;
     box-sizing: border-box;
@@ -22,4 +22,32 @@ h1 {
  a {
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+button {
+    width: 32%;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    transition: transform 0s;
+}
+
+button:focus {
+    border: 0;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.sounds-container {
+    width: 100%;
+    margin: 10% 0;
+    padding: 10% 0;
+    display: flex;
+    justify-content: space-evenly;
 }
