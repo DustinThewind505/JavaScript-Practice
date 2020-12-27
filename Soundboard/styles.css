@@ -1,13 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    border: 0;
     text-align: center;
     transition: transform 0.3s ease-in-out;
     box-sizing: border-box;
 }
 
 body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/20f4f11a-96a1-48a5-928f-c4c956cc2e6e/d1jvbmq-30510d8e-33cd-41fe-b12c-5db0340aab51.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjBmNGYxMWEtOTZhMS00OGE1LTkyOGYtYzRjOTU2Y2MyZTZlXC9kMWp2Ym1xLTMwNTEwZDhlLTMzY2QtNDFmZS1iMTJjLTVkYjAzNDBhYWI1MS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.LqALR40JZZ6swWLC6gT9KVUEtpRFuhu6LMSNTpse6BE");
+    background-size: 30%;
+    background-position: bottom;
+    background-repeat: repeat-x;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,10 +30,13 @@ h1 {
 
 button {
     width: 32%;
-    height: 50px;
+    height: 150px;
     font-size: 1.5rem;
-    border-radius: 15px;
+    font-weight: bold;
+    border-radius: 4px;
     transition: transform 0s;
+    border: 1px solid black;
+    background-color: rebeccapurple;
 }
 
 button:focus {
@@ -37,7 +44,7 @@ button:focus {
 }
 
 button:hover {
-    transform: translateY(-1px);
+    transform: translateY(-3px);
 }
 
 button:active {
@@ -50,4 +57,25 @@ button:active {
     padding: 10% 0;
     display: flex;
     justify-content: space-evenly;
+}
+
+.seinfeld {
+    background-image: url("https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0008/3096/brand.gif?itok=G6IHcJ1J");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pikachu {
+    background-image: url("https://i.pinimg.com/originals/dc/7a/ed/dc7aede02999598f349735464ffe3f7f.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.final-fantasy-victory {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Final_Fantasy_8_ntsc-front.jpg/220px-Final_Fantasy_8_ntsc-front.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
